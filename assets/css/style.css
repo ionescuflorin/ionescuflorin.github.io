@@ -1,0 +1,29 @@
+.border {
+  border: 2px solid #237fff53 !important;
+}
+.hover-shadow-9:hover {
+  box-shadow: 0 0 74px #237fff39;
+}
+.navbar-dark .navbar-brand {
+  color: #50a1ff;
+  font-weight: bold;
+}
+.navbar > .container {
+  border: 2px solid #237fff53 !important;
+}
+.ml-md-auto,
+.mx-md-auto {
+  margin-left: 0 !important;
+}
+.nav-sidebar-hero > .nav-item {
+  border-bottom: 0;
+}
+hr {
+  border-top-color: rgba(117, 117, 117, 0.238);
+}
+.hr-dash {
+  border-top-style: double;
+}
+.navbar-brand:hover {
+  color: #868e96 !important;
+}

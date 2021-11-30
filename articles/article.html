@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Article</title>
+
+    <!-- Styles -->
+    <link href="../../assets/css/page.css" rel="stylesheet">
+    <link href="../../assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" href="../assets/img/favicon.png">
+  </head>
+
+  <body>
+
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-stick-dark" data-navbar="sticky">
+        <div class="container">
+  
+          <div class="navbar-left">
+            <button class="navbar-toggler" type="button">&#9776;</button>
+            <a class="navbar-brand" href="index.html">
+              iKnowledge
+            </a>
+          </div>
+  
+          <section class="navbar-mobile">
+            <span class="navbar-divider d-mobile-none"></span>
+  
+            <ul class="nav nav-navbar">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Components <span class="arrow"></span></a>
+                <nav class="nav">
+                  <a class="nav-link" href="../../components/accordion.html">Accordion</a>
+                  <a class="nav-link" href="../../components/alert.html">Alert</a>
+                  <a class="nav-link" href="../../components/badge.html">Badge</a>
+                  <a class="nav-link" href="../../components/button.html">Button</a>
+                  <a class="nav-link" href="../../components/code.html">Code</a>
+                  <a class="nav-link" href="../../components/files.html">Files</a>
+                  <a class="nav-link" href="../../components/form.html">Form</a>
+                  <a class="nav-link" href="../../components/icon.html">Icon</a>
+                  <a class="nav-link" href="../../components/image.html">Image</a>
+                  <a class="nav-link" href="../../components/navbar.html">Navbar</a>
+                  <a class="nav-link" href="../../components/pagination.html">Pagination</a>
+                  <a class="nav-link" href="../../components/palette.html">Palette</a>
+                  <a class="nav-link" href="../../components/progress.html">Progress</a>
+                  <a class="nav-link" href="../../components/scroll.html">Scroll</a>
+                  <a class="nav-link" href="../../components/sidebar.html">Sidebar</a>
+                  <a class="nav-link" href="../../components/social.html">Social</a>
+                  <a class="nav-link" href="../../components/steps.html">Steps</a>
+                  <a class="nav-link" href="../../components/tab.html">Tab</a>
+                  <a class="nav-link" href="../../components/table.html">Table</a>
+                  <a class="nav-link" href="../../components/toc">Toc</a>
+                  <a class="nav-link" href="../../components/typography.html">Typography</a>
+                  <a class="nav-link" href="../../components/utility.html">Utility</a>
+                  <a class="nav-link" href="../../components/video.html">Video</a>
+                </nav>
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="#">Slot#1 <span class="arrow"></span></a>
+                <nav class="nav">
+                  <a class="nav-link" href="#">Lorem Ipsum</a>
+                  <a class="nav-link" href="#">Lorem Ipsum</a>
+                  <a class="nav-link" href="#">Lorem Ipsum</a>
+                </nav>
+              </li>
+  
+            </ul>
+          </section>
+          
+  
+        </div>
+      </nav><!-- /.navbar -->
+
+    <!-- Main Content -->
+    <main class="main-content mt-5">
+
+      <div class="container">
+        <div class="row">
+
+          <!--
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          | Content
+          |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+          !-->
+          <div class="col-md-12 col-xl-12 mr-md-auto py-8">
+            <article>
+              <h2 class="fw-200">Developing a new project starting from the expert starter</h2>
+              <br>
+              <p class="lead">It is a blank directory to make a copy of and start a new project with. It includes the required JS and CSS files from TheSaaS as well as icon fonts, PHP files and some images.</p>
+
+              <br>
+              <h6 class="fw-500">Sections in this article:</h6>
+              <nav class="nav nav-toc-1 my-5">
+                <a class="nav-link" href="#dep">Install dependencies</a>
+                <a class="nav-link" href="#code">Write code</a>
+                <a class="nav-link" href="#dist">Distribute</a>
+              </nav>
+
+              <hr>
+
+              <h4 id="dep">Install dependencies</h4>
+              <ol>
+                <li><a href="https://nodejs.org/en/download">Download and install Node.js</a> if it's not installed on your machine</li>
+                <li>Install the <a href="https://gulpjs.com/">Gulp</a> command line tools, <em>gulp-cli</em>, with <code>npm install gulp-cli -g</code></li>
+                <li>Navigate to the root directory of your project and run <code>npm install</code> to install dependencies</li>
+                <li>Run <code>gulp serve</code>.</li>
+              </ol>
+
+              <p>With the above command, a static web server starts in your browser which points to <em>/src</em> directory. It watch your files to reload the browser upon change to the HTML files, or JS and CSS files. Also, it watch your SCSS and JS files to compile them to page.min.css and page.min.js upon each change.</p>
+
+
+              <hr class="hr-dash my-7">
+
+
+              <h4 id="code">Write code</h4>
+              <p>Time for development. Now you're ready to create your HTML files and writing your custom CSS and JS codes.</p>
+              <p><mark class="small">- HTML</mark><br>Since most of the websites have a global layout for whole of the application, you might want to start modifying index.html file and create a global layout for your website. Check available layout features such as <a href="#">navbar</a>, <a href="#">header</a>, <a href="#">cover</a>, <a href="#">footer</a>, etc. as well as all the <a href="#">blocks</a> and <a href="#">UI Kit</a>.</p>
+              <p><mark class="small">- SCSS</mark><br>Write your additional styles inside <code>/assets/scss/_style.scss</code>. Feel free to create more scss files and even subdirectories inside /scss folder to split your code to smaller chunks and import them inside <code>/scss/page.scss</code> file. Our Gulp task is watching all of the scss files inside /scss directory and recompile the page.min.css upon each change.</p>
+              <p><mark class="small">- JavaScript</mark><br>Your additional JavaScript codes should be write inside <code>/assets/js/src/script.js</code>. Again, if you need to split your code to several JS files, simply create them inside /js/src directory and require them inside the <code>/js/src/page.js</code>. Our Gulp task is watching all of the JS files inside /js/src directory and recompile page.min.js after each change using Webpack.</p>
+
+
+              <hr class="hr-dash my-7">
+
+
+              <h4 id="dist">Distribute</h4>
+              <p>Done with development? Run <code>gulp dist</code> to deploy your code inside <em>/dist</em> directory. This task simply remove unnecessary files (scss files, scss folder, unminified css and js files, etc.) in the /dist folder. Now you can use the /dist folder in your server side coding or upload to your web server.</p>
+
+            </article>
+
+            <div class="text-center mt-8">
+              <hr class="hr-light">
+              <p class="lead mb-0">How helpful was this article?</p>
+              <nav class="nav nav-center lead-3 opacity-70">
+                <a class="nav-link text-danger" href="#"><i class="fa fa-frown-o"></i></a>
+                <a class="nav-link text-primary" href="#"><i class="fa fa-meh-o"></i></a>
+                <a class="nav-link text-success" href="#"><i class="fa fa-smile-o"></i></a>
+              </nav>
+            </div>
+
+          </div>
+
+
+         
+
+        </div>
+      </div>
+
+    </main><!-- /.main-content -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+
+          <div class="col-md-9">
+            <div class="nav justify-content-center justify-content-md-start">
+              <a class="nav-link" href="../index.html">Home</a>
+              <a class="nav-link" href="../docs/kb-introduction.html">Docs</a>
+              <a class="nav-link" href="../page/changelog-1.html">Changelog</a>
+              <a class="nav-link" href="https://themeforest.net/item/thedocs-online-documentation-template/13070884?license=regular&open_purchase_for_item_id=13070884&purchasable=source&ref=thethemeio">Purchase</a>
+            </div>
+          </div>
+
+          <div class="col-md-3 text-center text-md-right">
+            <a href="http://thetheme.io">© TheThemeio</a>
+          </div>
+        </div>
+      </div>
+    </footer><!-- /.footer -->
+
+
+    <!-- Scripts -->
+    <script src="../assets/js/page.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+
+  </body>
+</html>
