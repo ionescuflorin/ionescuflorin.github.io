@@ -8,7 +8,7 @@
 <!-- blue link -->
 <a href="#">basic</a>
 <!-- bold text -->
-<strong>Expert starter</strong>
+<strong>Expert-starter</strong>
 ```
 
 ### Standard Page
