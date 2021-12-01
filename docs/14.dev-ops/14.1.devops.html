@@ -172,17 +172,17 @@
   
                 <!-- GAMES -->
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Games<i class="nav-angle"></i></a>
+                  <a class="nav-link" href="#">Games<i class="nav-angle"></i></a>
                   <div class="nav">
-                    <a class="nav-link active" href="../13.games/13.1.pixi.html">Pixi</a>
+                    <a class="nav-link" href="../13.games/13.1.pixi.html">Pixi</a>
                   </div>
                 </li>
   
                  <!-- DEVOPS -->
                  <li class="nav-item">
-                  <a class="nav-link" href="#">DevOps<i class="nav-angle"></i></a>
+                  <a class="nav-link active" href="#">DevOps<i class="nav-angle"></i></a>
                   <div class="nav">
-                    <a class="nav-link" href="../14.dev-ops/14.1.devops.html">CI/CD</a>
+                    <a class="nav-link active" href="../14.dev-ops/14.1.devops.html">CI/CD</a>
                   </div>
                 </li>
   
@@ -197,7 +197,7 @@
           |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
           !-->
         <div class="col-md-7 col-xl-8 ml-md-auto py-8 order-first order-md-last">
-          <h1>PIXI</h1>
+          <h1>DEVOPS</h1>
           <a href="../../index.html">back to home ></a>
 
           <!-- <p class="lead mt-4">In this article, we help you to start and configure your project by creating a copy of
@@ -205,25 +205,38 @@
 
           <h4 class="mt-5">In this page</h4>
           <nav class="nav nav-toc-1 my-4">
-            <a class="nav-link" href="#pixi">Pixi</a>
+            <a class="nav-link" href="#pixi">CI/CD</a>
           </nav>
 
           <hr class="my-5">
 
-          <h2 id="pixi">Pixi</h2>
+          <h2 id="pixi">CI/CD</h2>
           <!-- <p>Our template comes with two powerful starter templates that you should use one of them as a boilerplate for
             your project. You should simply copy one of the starter directory to your desire destination and start
             developing.</p> -->
 
-          <h5>Repo example</h5>
-          <!-- <p>As you might see in the <code>/starter</code> directory, we have two starters; <a href="#">basic</a> and <a
-              href="#">expert</a>:</p> -->
+          <h5>CI/CD</h5>
+          <p>Software Development Team -> Git -> Build & Integration Team -> Compile -> Package + Instructions -> Operation Team -> Test Env -> QA Team -> Prod Deploy</p>
+
+          <h5>CI</h5>
           <ul>
-            <li><a href="https://github.com/ionescuflorin/knowledge-game" target="_blank">Shape Game Reevo</a></li>
+            <li>development practice that requires developers to integrate code into a shared repository several times a day.</li>
+            <li>a single central repo where the code lives</li>
+            <li>developers check-in/commit their code frequently</li>
+            <li>build should be triggered every time a developer checks in code</li>
+            <li>build should be automated and fast </li>
+            <li>build should compile the code as well as run automated</li>
+            <li>fixing a failed build should be top priority for the developers</li>
+            <li>build results should always be continued to all developers</li>
           </ul>
-          <!-- <p>We strongly recommend using the <mark>expert starter</mark>, but the basic starter template is advised to
-            people who are not familiar with npm, task runners and scss; and developing small-scaled websites with less
-            customization.</p> -->
+
+          <h5>CD</h5>
+          <ul>
+            <li>is a software development practice where software can be released to production at any time</li>
+            <li>CD can't be fully automated</li>
+            <li>Operation Team -> Automated Scripts(git) -> Test Env -> QA Team(manual) -> Prod Deploy(manual)</li>       
+          </ul>
+
         </div>
 
       </div>
